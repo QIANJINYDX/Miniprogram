@@ -1,0 +1,47 @@
+<!--pages/remingbi/remingbi.wxml-->
+<view class="continue">
+  <view class="zhishi">请在下面输入要查询的成语</view>
+  <input  bindinput="bindKeyInput" placeholder="请输入成语（必须是成语哦~）" placeholder-style="size:24rpx"/>
+    <button size="mini" bindtap="bindzhuanhua">
+      查询
+    </button> 
+</view>
+<!-- 海枯石烂 -->
+<view class="zhuanhuahou" hidden="{{!okkk}}"><view></view>
+  <view class="ai">
+    <view class="bi">拼音</view>
+    <view class="ci">{{items.pinyin}}</view>
+  </view>
+  <view class="ai">
+    <view class="bi">成语解释</view>
+    <view class="ci">{{items.chengyujs}}</view>
+  </view>
+  <view class="ai">
+    <view class="bi">成语出处</view>
+    <view class="ci">{{items.from_}}</view>
+  </view>
+  <view class="ai">
+    <view class="bi">举例</view>
+    <view class="ci">{{items.example}}</view>
+  </view>
+  <view class="ai">
+    <view class="bi">语法</view>
+    <view class="ci">{{items.yufa}}</view>
+  </view>
+  <view class="ai">
+    <view class="bi">词语解释</view>
+    <view class="ci">{{items.ciyujs}}</view>
+  </view>
+  <view class="ai">
+    <view class="bi">引证解释</view>
+    <view class="ci">{{items.yinzhengjs}}</view>
+  </view>
+  <view class="ai">
+    <view class="bi">同义词</view>
+    <text class="ci" wx:for="{{items.tongyi}}" wx:key="i" wx:for-item="item" wx:for-index="idx">{{items.tongyi[idx]}};</text>
+  </view>
+  <view class="ai">
+    <view class="bi">反义词</view>
+    <text class="ci"wx:for="{{items.fanyi}}" wx:key="i" wx:for-item="item" wx:for-index="idx">{{items.fanyi[idx]}};</text>
+  </view>
+</view>

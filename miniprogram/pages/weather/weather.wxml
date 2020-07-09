@@ -1,0 +1,67 @@
+<view class="container">
+    <!-- 地区选择器 -->
+        <picker mode='region' bindchange="changeRegion">
+            <view style="color: #3b94fa;">
+                {{region}}
+            </view>
+        </picker>
+        <!-- 文本 -->
+        <text>请选择地区并确定☝</text>
+        <!-- 多行天气信息 -->
+        <view class="detail">
+          <view class="bar">
+            <image src="../../image_w/shidu.png" ></image>
+            <image src="../../image_w/nycyy_qy1.png"></image>
+            <image src="../../image_w/nengjiandu.png" style="margin-left: 12%;"></image>
+          </view>
+          <view class="bar">
+            <view class="box">{{now.hum}}%</view>
+            <view class="box">{{now.pres}}hPa</view>
+            <view class="box">{{now.vis}}Km</view>
+          </view>
+          <view class="bar">
+            <view class="box1"style="margin-top: -10px;">相对湿度</view>
+            <view class="box1"style="margin-top: -10px;">气压</view>
+            <view class="box1"style="margin-top: -10px;">能见度</view>
+          </view>
+          <view class="bar">
+            <image src="../../image_w/fengxiang.png" ></image>
+            <image src="../../image_w/wenduji.png"></image>
+            <image src="../../image_w/jiangshuiliang.png"></image>
+          </view>
+          <view class="bar">
+            <view class="box">{{now.wind_sc}} 级</view>
+            <view class="box">{{now.fl}}℃</view>
+            <view class="box">{{now.pcpn}}</view>
+          </view>
+          <view class="bar">
+            <view class="box" style="color: #838181; margin-top: -10px;">{{now.wind_dir}}</view>
+            <view class="box1"style="margin-top: -10px;">体感温度</view>
+            <view class="box1"style="margin-top: -10px;">降水量</view>
+          </view>
+        </view>
+        <text class="xingxi">今日温度：{{now.tmp}}℃ 天气：{{now.cond_txt}}</text><!--传参-->
+        <!-- 图片 -->
+        <!-- <image src="../../imges/{{now.cond_code}}.png"></image> -->
+</view>
+
+<!--index.wxml-->
+<view class="wrapper" hidden="{{!okkkkk}}">
+  <view class="forecast">未来三天
+    <block wx:for="{{foest}}" wx:key="i" wx:for-index="index" wx:for-item="fc">
+      <view class="castItem">
+        
+        <view class="dade">
+          {{foest[index].date}}
+        </view>
+        <view class="castType">
+          <image class="typeImg" src="../../imges/{{foest[index].cond_code_d}}.png"></image>
+          {{foest[index].cond_txt_d}} | {{foest[index].wind_dir}}{{foest[index].wind_sc}}级
+        </view>
+        <view class="castTmp">
+            {{foest[index].tmp_min}}C°~{{foest[index].tmp_max}}C°
+        </view>
+        </view>
+    </block>
+  </view>
+</view>

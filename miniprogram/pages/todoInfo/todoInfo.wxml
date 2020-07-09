@@ -1,0 +1,8 @@
+<van-cell-group>
+	<van-cell title="{{task.title}}" value="{{task.status === 'in-progress'?'待完成':'已完成'}}" clickable>
+  </van-cell>
+  <van-button plain round type="info" icon="success" bindtap="success"></van-button>
+  <van-button plain round type="info" icon="cross" bindtap="delete"></van-button>
+	<van-cell wx:if="{{task.location}}" title="位置" border="{{false}}" icon="location" value="{{task.location.name}}" bind:click="viewLocation" />
+</van-cell-group>
+<image src="{{task.image}}"></image>

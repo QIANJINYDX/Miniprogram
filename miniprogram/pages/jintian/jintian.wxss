@@ -1,0 +1,14 @@
+/* pages/jintian/jintian.wxss */
+.tupian{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20rpx;
+}
+.kuai{
+  border: 1px solid gray;
+  border-radius: 0%;
+  margin-top: 10rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}

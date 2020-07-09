@@ -1,0 +1,98 @@
+<view class="big">
+  <view class="table">
+    <view class="tr bg-w">
+      <view class="th" style="border-top-left-radius: 50rpx;">特种服务</view>
+      <view class="th" style="border-top-right-radius: 50rpx;">电话号码</view>
+    </view>
+    <block wx:for="{{listData}}" wx:key="{{code}}">
+      <view class="tr bg-g" wx:if="{{index % 2 == 0}}">
+        <view class="td">{{item.code}}</view>
+        <view class="td">{{item.text}}</view>
+      </view>
+      <view class="tr" wx:else>
+        <view class="td">{{item.code}}</view>
+        <view class="td">{{item.text}}</view>
+      </view>
+    </block>
+  </view>
+  <view class="table">
+    <view class="tr bg-w">
+      <view class="th" style="border-top-left-radius: 50rpx;">通讯服务</view>
+      <view class="th"style="border-top-right-radius: 50rpx;">电话号码</view>
+    </view>
+    <block wx:for="{{listData2}}" wx:key="{{code}}">
+      <view class="tr bg-g" wx:if="{{index % 2 == 0}}">
+        <view class="td">{{item.code}}</view>
+        <view class="td">{{item.text}}</view>
+      </view>
+      <view class="tr" wx:else>
+        <view class="td">{{item.code}}</view>
+        <view class="td">{{item.text}}</view>
+      </view>
+    </block>
+  </view>
+  <view class="table">
+    <view class="tr bg-w">
+      <view class="th"style="border-top-left-radius: 50rpx;">政府机构</view>
+      <view class="th"style="border-top-right-radius: 50rpx;">电话号码</view>
+    </view>
+    <block wx:for="{{listData3}}" wx:key="{{code}}">
+      <view class="tr bg-g" wx:if="{{index % 2 == 0}}">
+        <view class="td">{{item.code}}</view>
+        <view class="td">{{item.text}}</view>
+      </view>
+      <view class="tr" wx:else>
+        <view class="td">{{item.code}}</view>
+        <view class="td">{{item.text}}</view>
+      </view>
+    </block>
+  </view>
+  <view class="table">
+    <view class="tr bg-w">
+      <view class="th"style="border-top-left-radius: 50rpx;">投诉举报</view>
+      <view class="th"style="border-top-right-radius: 50rpx;">电话号码</view>
+    </view>
+    <block wx:for="{{listData4}}" wx:key="{{code}}">
+      <view class="tr bg-g" wx:if="{{index % 2 == 0}}">
+        <view class="td">{{item.code}}</view>
+        <view class="td">{{item.text}}</view>
+      </view>
+      <view class="tr" wx:else>
+        <view class="td">{{item.code}}</view>
+        <view class="td">{{item.text}}</view>
+      </view>
+    </block>
+  </view>
+  <view class="table">
+    <view class="tr bg-w">
+      <view class="th"style="border-top-left-radius: 50rpx;">保险</view>
+      <view class="th"style="border-top-right-radius: 50rpx;">电话号码</view>
+    </view>
+    <block wx:for="{{listData5}}" wx:key="{{code}}">
+      <view class="tr bg-g" wx:if="{{index % 2 == 0}}">
+        <view class="td">{{item.code}}</view>
+        <view class="td">{{item.text}}</view>
+      </view>
+      <view class="tr" wx:else>
+        <view class="td">{{item.code}}</view>
+        <view class="td">{{item.text}}</view>
+      </view>
+    </block>
+  </view>
+  <view class="table">
+    <view class="tr bg-w">
+      <view class="th"style="border-top-left-radius: 50rpx;">银行服务</view>
+      <view class="th"style="border-top-right-radius: 50rpx;">电话号码</view>
+    </view>
+    <block wx:for="{{listData6}}" wx:key="{{code}}">
+      <view class="tr bg-g" wx:if="{{index % 2 == 0}}">
+        <view class="td">{{item.code}}</view>
+        <view class="td">{{item.text}}</view>
+      </view>
+      <view class="tr" wx:else>
+        <view class="td">{{item.code}}</view>
+        <view class="td">{{item.text}}</view>
+      </view>
+    </block>
+  </view>
+</view>

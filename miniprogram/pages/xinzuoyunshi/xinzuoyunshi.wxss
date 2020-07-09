@@ -1,0 +1,55 @@
+/* pages/xinzuoyunshi/xinzuoyunshi.wxss */
+.big{
+  width: 94%;
+  margin-left: 3%;
+}
+.b1{
+  font-size: 48rpx;
+}
+.b2{
+  font-weight: bold;
+}
+.a1{
+  background-color: rgb(250, 240, 184);
+  border-radius: 10rpx;
+  margin-top: 20rpx;
+}
+.top{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+picker{
+  font-size: 48rpx;
+}
+.c1{
+  display: flex;
+  word-wrap:break-word;word-break:break-all;
+}
+.b2{
+  width: 25%;
+}
+.n1{
+  width: 75%;
+}
+.button1{
+  margin-top: 40rpx;
+  background-color: #faf0b8;
+}
+.c11{
+  display: flex;
+  word-wrap:break-word;word-break:break-all;
+  flex-direction: column;
+  margin-top: 40rpx;
+}
+.b22{
+  font-weight: bold;
+}
+.n12{
+  margin-left: 60rpx;
+}
+.bigbig{
+  background-color: rgb(240, 243, 211);
+  height: 145vh;
+  width: 100vw;
+}

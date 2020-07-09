@@ -1,0 +1,30 @@
+/* pages/youjia/youjia.wxss */
+picker{
+  background-color: #0000;
+  font-size: 24px;
+  border-radius: 9px;
+}
+.coninue{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.table{
+  display: flex;
+  flex-direction: column;
+}
+.trbg-w{
+  display: flex;
+  flex-direction: row;
+}
+.th .tr{
+  width: 50%;
+  text-align: center;
+}
+.th{
+  padding-top: 20rpx;
+  width: 375rpx;
+  height: 70rpx;
+  text-align:center;
+  border: 1px solid #c1d2de;
+}

@@ -1,0 +1,28 @@
+.list {
+  background: #fff;
+}
+.list .item{
+  padding:20px 15px;
+  font-size: 14px;
+  color:#333;
+  position: relative;
+  border-bottom: 1px solid #f3f3f3;
+}
+.list .item::last-child{
+  border:none;
+}
+.list .item image {
+  width:16px;
+  height: 16px;
+  display: inline-block;
+  vertical-align:middle;
+  margin-right:5px;
+}
+.list .item .jump{
+  position: absolute;
+  right:20px;
+  color:#333
+}
+.big{
+  font-weight: bold;
+}

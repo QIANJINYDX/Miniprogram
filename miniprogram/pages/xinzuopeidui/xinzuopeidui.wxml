@@ -1,0 +1,66 @@
+<view class="big">
+  <view class="top">
+    <text style="margin-left: 45rpx;">男生星座：</text>
+    <picker bindchange="bindgetxinzuo" value="{{index}}" range="{{array}}">
+      {{array[index]}}
+    </picker>
+    <text style="margin-left: 72rpx; margin-right: 45rpx;">:</text>
+    <picker bindchange="bindgetxinzuo1" value="{{index1}}" range="{{array}}" style="margin-left: 40rpx;">
+      {{array[index1]}}
+    </picker>
+    <text style="margin-right:-60rpx;">：女生星座</text>
+  </view>
+  <view class="to">
+    <text style="margin-left: 200rpx;">请选择</text>
+    <text style="margin-left: 100rpx;">请选择</text>
+  </view>
+  <view class="bottom">
+    <button bindtap="getinfo">查询</button>
+  </view>
+  <view hidden='{{!ok}}' class="zhongjian">
+    <view class="a1a1">
+      <view class="a1">
+        <view class="b1"selectable="true">配对指数：</view>
+        <view class="c1"selectable="true">{{items.result.zhishu}}%</view>
+      </view>
+      <view class="a1">
+        <view class="b1"selectable="true">配对比重：</view>
+        <view class="c1"selectable="true">{{items.result.bizhong}}</view>
+      </view>
+      <view class="a1">
+        <view class="b1"selectable="true">两情相悦指数：</view>
+        <view class="c1"selectable="true">{{items.result.xiangyue}}</view>
+      </view>
+      <view class="a1">
+        <view class="b1"selectable="true">天长地久指数：</view>
+        <view class="c1"selectable="true">{{items.result.tcdj}}</view>
+      </view>
+      <view class="a1">
+        <view class="b1"selectable="true">结果：</view>
+        <view class="c1"selectable="true">{{items.result.jieguo}}</view>
+      </view>
+      <view class="a1">
+        <view class="b1"selectable="true">恋爱：</view>
+        <view class="c1"selectable="true">{{items.result.lianai}}</view>
+      </view>
+      <view class="a1">
+        <view class="b1"selectable="true">注意：</view>
+        <view class="c1"selectable="true">{{items.result.zhuyi}}</view>
+      </view>
+    </view>
+  </view>
+  <view class="xiangguan">
+    <text class="bi"selectable="true">
+      相关介绍：
+    </text>
+    <view class="kongzhi">
+      <text class="ni"selectable="true">
+        <text></text>十二星座是指占星学必不可少的组成部分之一，也是天上一群群的恒星组合。主要分析一个人表现出来的性格特点。而不同的性格碰撞，自然会有不同的磁场反应，也就是星座配对的结果。
+      </text>
+    </view>
+    
+    <text class="ni"selectable="true">
+      <text></text>点击星座配对立即领取配对报告，你能及时知晓和对方的配对情况好坏，以及在相处当中需要知道的注意事项。
+    </text>
+  </view>
+</view>

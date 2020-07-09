@@ -1,0 +1,24 @@
+/* pages/yingxiaohao/yingxiaohao.wxss */
+.top .top_3 .top1 text{
+  font-weight: bold;
+}
+.top .top_3 .top1 input{
+  border:2rpx solid #eee;
+  width: 100%;
+  height: 60rpx;
+}
+.zong{
+  width: 94%;
+  padding-left: 3%;
+}
+.top1{
+  margin-top: 40rpx;
+}
+.bottum text{
+  margin-left: 60rpx;
+}
+.bottum{
+  background-color: #eee;
+  border-radius: 10rpx;
+  margin-top: 50rpx;
+}

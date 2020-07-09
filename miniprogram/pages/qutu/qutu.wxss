@@ -1,0 +1,56 @@
+.continue{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.top{
+  border: 2rpx solid #eee;
+  margin-top: 62rpx;
+  border-radius: 1000rpx;
+  background-color: #eee;
+}
+.zhong_button{
+  border-radius: 100rpx;
+  margin-top: 40rpx;
+  margin-left: 170rpx;
+}
+.top_input{
+  width: 640rpx;
+  height: 80rpx;
+  border-radius:10px;
+  font-size: 48rpx;
+}
+.zhong{
+  width: 100%;
+}
+.buttom{
+  margin-top: 40rpx;
+  margin-bottom: 40rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.kuaiji{
+  display: flex;
+  width: 90%;
+  flex-direction: column;
+  background-color: #eee;
+}
+.biaoti{
+  font-size: 45rpx;
+  margin-left: 20rpx;
+  margin-top: -50rpx;
+}
+.neiron{
+  margin-left: 100rpx;
+  margin-bottom: 20rpx;
+  margin-top: 20rpx;
+}
+.neiron2{
+  color: #666666;
+  margin-left: 60rpx;
+}
+.biaoti2{
+  font-weight:bold;
+  font-size:32rpx
+}

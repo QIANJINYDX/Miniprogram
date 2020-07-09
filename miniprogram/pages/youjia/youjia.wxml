@@ -1,0 +1,32 @@
+<view class="coninue">
+  <picker mode='region' bindchange="changeRegion">
+  <view style="color: #3b94fa;">
+      {{region}}
+  </view>
+  </picker>
+  <view style="color: #3b94fa;">
+    数据更新时间：{{items.ct}}
+  </view>
+  <view class="table">
+    <view class="trbg-w" style="background-color: #edf7ff;">
+      <view class="th">石油类型</view>
+      <view class="th">油价（元/L）</view>
+    </view>
+    <view class="trbg-w">
+      <view class="th">0号柴油</view>
+      <view class="th">{{items.p0}}</view>
+    </view>
+    <view class="trbg-w">
+      <view class="th">89号汽油</view>
+      <view class="th">{{items.p89}}</view>
+    </view>
+    <view class="trbg-w">
+      <view class="th">92号汽油</view>
+      <view class="th">{{items.p92}}</view>
+    </view>
+    <view class="trbg-w">
+      <view class="th">95号汽油</view>
+      <view class="th">{{items.p95}}</view>
+    </view>
+  </view>
+</view>

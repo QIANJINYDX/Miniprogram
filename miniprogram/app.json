@@ -1,14 +1,67 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/index2/index",
+    "pages/index/index",
+    "pages/addTodo/addTodo",
+    "pages/todoInfo/todoInfo",
+    "pages/wo/wo",
+    "pages/xinzuopeidui/xinzuopeidui",
+    "pages/xinzuoyunshi/xinzuoyunshi",
+    "pages/yingxiaohao/yingxiaohao",
+    "pages/ip/ip",
+    "pages/qutu/qutu",
+    "pages/woinfo/woinfo",
+    "pages/xiaohua/xiaohua",
+    "pages/shenhuoshijian/shenhuoshijian",
+    "pages/remingbi/remingbi",
+    "pages/youjia/youjia",
+    "pages/resou/resou",
+    "pages/dianhua/dianhua",
+    "pages/fanti/fanti",
+    "pages/jintian/jintian",
+    "pages/weather/weather",
+    "pages/pengyouquan/pengyouquan",
+    "pages/logs/logs",
+    "pages/chengyuzidian/chengyuzidian"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTitleText": "云待办",
     "navigationBarTextStyle": "black"
   },
+  "usingComponents":{
+    "van-button": "vant-weapp/button",
+    "van-cell": "vant-weapp/cell",
+    "van-cell-group": "vant-weapp/cell-group",
+    "van-icon": "vant-weapp/icon",
+    "van-checkbox": "vant-weapp/checkbox",
+    "van-checkbox-group": "vant-weapp/checkbox-group"
+  },
+  "tabBar": {
+    "backgroundColor":"#e9d39a",
+    "selectedColor":"#175671",
+    "list": [
+      {
+        "pagePath": "pages/index2/index",
+        "text": "工具",
+        "iconPath":"images_navigation/gongju1.png",
+        "selectedIconPath":"images_navigation/gongju.png"
+      },
+      {
+        "pagePath": "pages/wo/wo",
+        "text": "我",
+        "iconPath":"images_navigation/woxuanzhong1.png",
+        "selectedIconPath":"images_navigation/woxuanzhong.png"
+      }
+    ]
+  },
+  "style": "v2",
   "sitemapLocation": "sitemap.json",
-  "style": "v2"
+  "permission":{
+    "scope.userLocation":{
+      "desc":"你的位置信息将用于任务的设定"
+    }
+  }
 }

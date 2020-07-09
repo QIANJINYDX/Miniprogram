@@ -1,0 +1,50 @@
+/* pages/pengyouquan/pengyouquan.wxss */
+.zongti{
+  background-color: rgb(211, 243, 211);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.xianshi{
+  width: 90%;
+  margin-top: 20%;
+  background-color: #fff;
+  border:1px solid #eee;
+  height: 35%;
+  border-radius: 10rpx;
+}
+.wenzi{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 92%;
+  height: 100%;
+  padding-left: 5%;
+}
+.xiahuaxian{
+  color: rgb(223, 223, 223);
+}
+.button_hex{
+  display: flex;
+  width: 100%;
+  margin-top: 3%;
+}
+.bu{
+  background-color: rgb(127, 255, 148);
+}
+.bu1{
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.biaoming{
+  margin-top: 62%;
+}
+.biaoming text{
+  font-size: small;
+  font-size: 18rpx;
+  color:rgb(131, 129, 129)
+}

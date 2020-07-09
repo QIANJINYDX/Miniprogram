@@ -1,0 +1,30 @@
+
+<view class="continue">
+  <view class="top">
+    <input placeholder="请输入偷偷号" bindinput="getQQ" class="top_input" value="{{QQ}}" placeholder-style="font-size:48rpx "/>
+  </view>
+  <view class="zhong">
+    <button class="zhong_button" size="mini" bindtap="getdaan" >查询</button>
+    <button class="zhong_button" size="mini" bindtap="getqinkong">清空</button>
+  </view>
+</view>
+<view class="buttom" hidden="{{!ok}}">
+  <view class="kuaiji" style="border-top-left-radius:20rpx;border-top-right-radius:20rpx;">
+    <text class="biaoti"selectable="true">
+      测试结论:
+    </text>
+    <text class="neiron" style="margin-bottom: 0;"selectable="true">{{items.result.data.conclusion}}</text>
+  </view>
+  <view class="kuaiji" style="border-bottom-left-radius:20rpx;border-bottom-right-radius:20rpx;">
+    <text class="biaoti"selectable="true">
+      结论分析:
+    </text>
+    <text class="neiron"selectable="true">{{items.result.data.analysis}}</text>
+  </view>
+</view>
+<view class="guanyushuzi">
+  <text class="biaoti2"selectable="true">关于数字吉凶查询\n</text>
+  <text class="neiron2"selectable="true">\t\t算命先生数字吉凶查询是以81数字数理吉凶为分析基础结合现代电脑信息技术设计制作而成。81数理吉凶是在易学基础上总结提炼而来。\n</text>
+  <text class="neiron2"selectable="true">周易是中国传统思想文化中自然哲学与人文实践的理论根源，是古代汉民族思想、智慧的结晶，被誉为“大道之源”。\n</text>
+  <text class="neiron2"selectable="true">现今科学称之无任何根据，因此结果无论吉凶，测试者不必当真。 一切唯心、唯相而已，信则有不信则无。成功需靠努力，若因持有幸运号码一味守株待兔，终日梦想不劳而获，往往会让您错失许多发展良机。</text>
+</view>

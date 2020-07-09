@@ -1,0 +1,44 @@
+<view class="page-section">
+  <view class="weui-cells__title">输入IP地址：</view>
+  <view class="weui-cells weui-cells_after-title">
+    <view class="weui-cell weui-cell_input">
+      <input class="weui-input"   bindinput="bindKeyInput" placeholder="例如1.24.210.0"/>
+    </view>
+  </view>
+  <button bindtap="getinfo">查询</button>
+  <view class="jieguo" hidden="{{!ok}}">
+    <view class="jie">
+      <text class="b1"selectable="true">国家：</text>
+      <text class="c1"selectable="true">{{item.data.country}}</text>
+    </view>
+    <view>
+      <text class="b1"selectable="true">省份：</text>
+      <text class="c1"selectable="true">{{item.data.province}}</text>
+    </view>
+    <view>
+      <text class="b1"selectable="true">城市：</text>
+      <text class="c1"selectable="true">{{item.data.city}}</text>
+    </view>
+    <view>
+      <text class="b1"selectable="true">IP服务商名称：</text>
+      <text class="c1"selectable="true">{{item.data.isp}}</text>
+    </view>
+    <view>
+      <text class="b1"selectable="true">经度：</text>
+      <text class="c1"selectable="true">{{item.data.lon}}</text>
+    </view>
+    <view>
+      <text class="b1"selectable="true">纬度：</text>
+      <text class="c1"selectable="true">{{item.data.lat}}</text>
+    </view>
+  </view>
+  <view class="xiangguang">
+    <text class="b1">相关介绍：</text>
+    <view>
+      <text class="dsad"></text><text selectable="true">IP地址（Internet Protocol Address）是指互联网协议地址，又译为网际协议地址。\n</text>
+    </view>
+    <view>
+      <text class="dsad"></text><text selectable="true">IP地址是IP协议提供的一种统一的地址格式，它为互联网上的每一个网络和每一台主机分配一个逻辑地址，以此来屏蔽物理地址的差异。</text>
+    </view>
+  </view>
+</view>

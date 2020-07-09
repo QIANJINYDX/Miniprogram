@@ -1,0 +1,29 @@
+<view>
+  <view class="userinfo">
+  <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo" class="butt10"> 获取头像昵称 </button>
+  <block wx:else>
+    <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </block>
+</view>
+<view class="list">
+  <view class="item" bindtap="order">
+      <image src="../../images_navigation/renwu.png"/>个人信息
+      <text class="jump">〉</text>
+  </view>
+  <!-- <view class="item" bindtap="order">
+    <image src="../../images_navigation/gou.png"/>大帅哥
+    <text class="jump">〉</text>
+  </view> -->
+</view>
+</view>
+<button class="item1" open-type="feedback">
+ <view class="item_leftitem">
+    <view class="icon"><image src="../../images_navigation/yijianfankui.png" style="width:28px;height:28px;"></image></view>
+    <view class="item_title"><text>意见反馈</text></view>
+    <text class="jump">〉</text>
+  </view>
+</button>
+<!-- <button bindtap="tianjia">签到</button> -->
+
+

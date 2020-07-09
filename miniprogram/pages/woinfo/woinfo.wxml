@@ -1,0 +1,22 @@
+<view class="list">
+  <view class="item" >
+      <text class="big">昵称：</text>
+      <text class="jump">{{shuju.nickName}}</text>
+  </view>
+  <view class="item">
+      <text class="big">性别：</text>
+      <text class="jump">{{sex}}</text>
+  </view>
+  <view class="item" >
+    <text class="big">国家：</text>
+    <text class="jump">{{shuju.country}}</text>
+</view>
+<view class="item" >
+  <text class="big">省份：</text>
+  <text class="jump">{{shuju.province}}</text>
+</view>
+<view class="item" >
+  <text class="big">城市：</text>
+  <text class="jump">{{shuju.city}}</text>
+</view>
+</view>

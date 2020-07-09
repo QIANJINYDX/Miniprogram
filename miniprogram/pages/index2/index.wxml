@@ -1,0 +1,204 @@
+<page></page>
+<view class="main-top">
+  <view class="classify" style="border-top: 0;">
+    <text class="big_navigation">生活服务</text>
+    <view class="classify_navigation">
+      <view class="navigation" bindtap="jumptianqi">
+        <navigator url="../weather/weather">
+          <image class="wheater_image" src='../../images_navigation/wheaternavigation.png'>
+
+          </image>   
+          <text style="font-size: 14px;">
+          今日天气
+          </text>
+        </navigator> 
+      </view>
+      <view class="navigation">
+        <navigator url="../chengyuzidian/chengyuzidian">
+          <image class="wheater_image" src='../../images_navigation/chengyu.png'>
+
+          </image>
+          <text style="font-size: 14px;">
+          成语字典
+          </text>
+        </navigator>
+      </view>
+      <view class="navigation" >
+        <navigator url="../remingbi/remingbi">
+          <image class="wheater_image" src='../../images_navigation/zhuanrenmingbi.png'>
+
+          </image>
+          <text style="font-size: 14px;margin-left: -1%;">
+          人名币转大写
+          </text>
+        </navigator>
+      </view>
+    </view>
+    <view class="classify_navigation">
+      <view class="navigation" >
+        <navigator url="../fanti/fanti">
+          <image class="wheater_image" src='../../images_navigation/jianfantizhuanhuan.png'>
+
+          </image>
+          <text style="font-size: 14px;margin-left: -1%;">
+          简/繁/火星体转换
+          </text>
+        </navigator>
+      </view>
+      <view class="navigation" >
+        <navigator url="../youjia/youjia">
+          <image class="wheater_image" src='../../images_navigation/youjia.png'>
+
+          </image>
+          <text style="font-size: 14px;margin-left: -1%;">
+          今日油价
+          </text>
+        </navigator>
+      </view>
+      <view class="navigation">
+        <navigator url="../index/index">
+          <image class="wheater_image" src='../../images_navigation/suishenji.png'>
+          </image>
+          <text style="font-size: 14px;">
+          随身记
+          </text>
+        </navigator>
+      </view>
+    </view>
+  </view>
+  <view class="classify">
+    <text class="big_navigation">娱乐服务</text>
+    <view class="classify_navigation">
+      <view class="navigation">
+        <navigator url="../xiaohua/xiaohua">
+          <image class="wheater_image" src='../../images_navigation/xiaohua.png' >
+
+          </image>
+          <text style="font-size: 14px;">
+          笑话
+          </text>
+        </navigator>
+      </view>
+      <view class="navigation">
+        <navigator url="../qutu/qutu">
+          <image class="wheater_image" src='../../images_navigation/QQ.png'>
+
+          </image>
+          <text style="font-size: 14px;">
+          QQ号测吉凶
+          </text>
+        </navigator>
+      </view>
+      <view class="navigation">
+        <navigator url="../resou/resou">
+          <image class="wheater_image" src='../../images_navigation/xingtaiduICON_sousuo--.png'>
+
+          </image>
+          <text style="font-size: 14px;">
+          网络热搜词
+          </text>
+        </navigator>
+      </view>
+    </view>
+    <view class="classify_navigation">
+      <view class="navigation">
+        <navigator url="../jintian/jintian">
+          <image class="wheater_image" src='../../images_navigation/jintian.png'>
+
+          </image>
+          <text style="font-size: 14px;">
+          历史上的今天
+          </text>
+        </navigator>
+      </view>
+      
+      <view class="navigation">
+        <navigator url="../shenhuoshijian/shenhuoshijian">
+          <image class="wheater_image" src='../../images_navigation/shijian.png' >
+          </image>
+          <text style="font-size: 14px;">
+          生活计时器
+          </text>
+        </navigator>
+      </view>
+      <view class="navigation">
+        <navigator url="../pengyouquan/pengyouquan">
+          <image class="wheater_image" src='../../images_navigation/maomi.png'>
+
+          </image>
+          <text style="font-size: 14px;">
+          朋友圈文案生成器
+          </text>
+        </navigator>
+      </view>
+    </view>
+    <view class="classify_navigation">
+      <view class="navigation">
+        <navigator url="../yingxiaohao/yingxiaohao">
+          <image class="wheater_image" src='../../images_navigation/gou.png'>
+
+          </image>
+          <text style="font-size: 14px;">
+          营销号生成器
+          </text>
+        </navigator>
+      </view>
+      <view class="navigation">
+        <navigator url="../xinzuoyunshi/xinzuoyunshi">
+          <image class="wheater_image" src='../../images_navigation/huangli.png'>
+
+          </image>
+          <text style="font-size: 14px;">
+          今日黄历
+          </text>
+        </navigator>
+      </view>
+      <view class="navigation">
+        <navigator url="../xinzuopeidui/xinzuopeidui">
+          <image class="wheater_image" src='../../images_navigation/aiqingyunshi.png'>
+
+          </image>
+          <text style="font-size: 14px;">
+          星座配对
+          </text>
+        </navigator>
+      </view>
+    </view>
+  </view>
+  <view class="classify" style="border-bottom: 0rpx;">
+    <text class="big_navigation">其他</text>
+  <view class="classify_navigation">
+    <view class="navigation">
+      <navigator url="">
+        <button open-type='contact' session-from='' class="buttunkefu" size="mini" plain="true">
+          👨‍💼
+          <!-- <image class="kefu" src='../../images_navigation/shouji.png'></image> -->
+        </button>
+        <text style="font-size: 14px;">
+        客服
+        </text>
+      </navigator>
+    </view>
+    <view class="navigation">
+      <navigator url="../dianhua/dianhua">
+        <image class="wheater_image" src='../../images_navigation/dianhua.png' >
+
+        </image>
+        <text style="font-size: 14px;">
+        常用电话
+        </text>
+      </navigator>
+    </view>
+    <view class="navigation">
+      <navigator url="../ip/ip">
+        <image class="wheater_image" src='../../images_navigation/yingyan-_IP.png' >
+
+        </image>
+        <text style="font-size: 14px;">
+        IP查询
+        </text>
+      </navigator>
+    </view>
+  </view>
+  </view>
+</view>

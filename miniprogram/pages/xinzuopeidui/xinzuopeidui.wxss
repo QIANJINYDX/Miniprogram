@@ -1,0 +1,49 @@
+/* pages/xinzuopeidui/xinzuopeidui.wxss */
+.big{
+  width: 94%;
+  margin-left: 3%;
+}
+.bi{
+  font-weight: bold;
+}
+.xiangguan{
+
+  margin-top: 20rpx;
+}
+.ni{
+  margin-left: 60rpx;
+  word-wrap:break-word;word-break:break-all;
+}
+.top{
+  display: flex;
+  align-items: center;
+  margin-top: 60rpx;
+}
+.a1a1{
+  display: flex;
+  flex-direction: column;
+}
+.a1{
+  display: flex;
+}
+.b1{
+  font-weight: bold;
+}
+.c1{
+  word-wrap:break-word;word-break:break-all;
+  width: 70%;
+}
+.big .top text{
+  font-size: 36rpx;
+  
+}
+.to text{
+  color: rgb(230, 228, 228);
+}
+.zhongjian{
+  background-color: #eee;
+  border-radius: 10rpx;
+}
+.bottom{
+  margin-bottom: 40rpx;
+}

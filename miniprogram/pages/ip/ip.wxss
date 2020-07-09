@@ -1,0 +1,31 @@
+/* pages/ip/ip.wxss */
+input{
+  width: 100%;
+  height: 50rpx;
+  border: 2rpx solid gray;
+}
+.page-section{
+  width: 94%;
+  margin-left: 3%;
+}
+.jieguo{
+  display: flex;
+  flex-direction: column;
+}
+.jie{
+  display: flex;
+}
+.b1{
+  font-weight: bold;
+}
+.xiangguang{
+  display: flex;
+  flex-direction: column;
+  margin-top: 40rpx;
+}
+.dsad{
+  margin-left: 60rpx;
+}
+.weui-cells__title{
+  margin-top: 20rpx;
+}

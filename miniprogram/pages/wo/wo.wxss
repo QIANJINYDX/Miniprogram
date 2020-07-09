@@ -1,0 +1,91 @@
+
+.list {
+  background: #fff;
+  
+}
+.list .item{
+  padding:28rpx 30rpx;
+  font-size: 32rpx;
+  color:#333;
+  position: relative;
+  border-bottom: 1px solid #f3f3f3;
+}
+.list .item::last-child{
+  border:none;
+}
+.list .item image {
+  width:28px;
+  height: 28px;
+  display: inline-block;
+  vertical-align:middle;
+  margin-right:5px;
+}
+.list .item .jump{
+  position: absolute;
+  right:20px;
+  color:#999;
+  font-size: 28rpx;
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 297rpx;
+  background-color: #ffdd59;
+}
+
+.userinfo-avatar {
+  width: 170rpx;
+  height: 170rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #fff;
+}
+.usermotto {
+  margin-top: 200px;
+}
+.item1{
+  background-color: #ffffff;
+  display:flex;
+  flex-direction:row;
+  height: 50px;
+  align-items: center;
+  position: relative;
+  padding-left:5px;
+  padding-right:5px;
+  text-align:left;
+  text-decoration:none;
+  border: none;
+  border-radius: 0;
+}
+.item1::after {
+  border: none;
+  border-radius: 0;
+}
+.item_leftitem{
+  width: 100%;
+  display: flex;
+  margin-left: -4rpx;
+}
+.item1:not([size='mini']){
+  width:708rpx;
+}
+.item_title{
+  font-weight: normal;
+  font-size: 32rpx;
+  margin-left: 15rpx;
+  margin-right: -44rpx;
+  align-items: center;
+  height: auto;
+  display: flex;
+  margin-bottom: 16rpx;
+}
+.item_leftitem .jump{
+  margin-left: 496rpx;
+  font-size: 28rpx;
+  margin-top: 8rpx;
+  color: #999;
+}

@@ -1,0 +1,29 @@
+<!--pages/yingxiaohao/yingxiaohao.wxml-->
+<view class="zong">
+  <view class="top">
+  <!-- <view class="wenben">
+    <text>营销号生成器</text>
+  </view> -->
+  <view class="top_3">
+    <view class="top1">
+      <text>主体：</text>
+      <input placeholder="大帅哥" bindinput="zhuti"/>
+    </view>
+    <view class="top1">
+      <text>事件：</text>
+      <input placeholder="太帅了" bindinput="shijian"/>
+    </view>
+    <view class="top1">
+      <text>一句话：</text>
+      <input placeholder="大帅哥真帅，帅炸了" bindinput="yijuhua"/>
+    </view>
+  </view>
+</view>
+<button bindtap="shengcheng" style="margin-top: 40rpx;">生成</button>
+<view class="bottum" hidden="{{!ok}}">
+  <text selectable="true">{{zhu}}{{shi}}是怎么回事呢？{{zhu}}相信大家都很熟悉，但是{{zhu}}{{shi}}是怎么回事呢，下面就让小编带大家一起了解吧。\n</text>
+  <text selectable="true">{{zhu}}{{shi}}，其实就是{{yi}},大家可能会很惊讶{{zhu}}怎么会{{shi}}呢？但事实就是这样，小编也感到非常惊讶\n</text>
+  <text selectable="true">这就是关于{{zhu}}{{shi}}的事情了，大家有什么想法呢，欢迎在评论区告诉小编一起讨论哦！</text>
+</view>
+<text style="font-weight: bold; margin-top: 40rpx;">仅供娱乐！</text>
+</view>

@@ -1,0 +1,13 @@
+<view class="zongti">
+  <view class="xianshi">
+    <view class="wenzi">
+      <text selectable="true">{{items[index].content}}</text>
+      <text class="xiahuaxian">_________________________________________</text>
+    </view>
+  </view>
+  <view class="button_hex">
+    <view class="bu1"><button class="bu" size="mini" open-type="share">分享</button></view>
+    <view class="bu1"><button class="bu" size="mini" bindtap="fuzhi">复制</button></view>
+    <view class="bu1"><button class="bu" size="mini" bindtap="getinfo">再来一条</button></view>
+  </view>
+</view>

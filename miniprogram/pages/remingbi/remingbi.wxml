@@ -1,0 +1,11 @@
+<!--pages/remingbi/remingbi.wxml-->
+<view class="continue">
+  <view class="zhishi">请在下面输入要转化的金额</view>
+  <input  bindinput="bindKeyInput" placeholder="请输入要转化的金额" placeholder-style="size:24rpx"/>
+    <button size="mini" bindtap="bindzhuanhua">
+      转化
+    </button> 
+</view>
+<view class="zhuanhuahou" hidden="{{!okkk}}"><view></view>
+      <text selectable="true">大写后：\n{{zhuanhua}}</text>
+</view>

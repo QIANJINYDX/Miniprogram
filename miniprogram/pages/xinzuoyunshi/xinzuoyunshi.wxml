@@ -1,0 +1,96 @@
+<view class="bigbig">
+  <view class="big">
+    <view class="top">
+    <button bindtap="getxingxi" size="mini" class="button1">查看</button>
+    </view>
+    <view class="jieguo" hidden='{{!ok}}'>
+      <view class="a1">
+        <view class="b1">
+          <text selectable="true">今日黄历：</text>
+        </view>
+        <view class="c1">
+          <text class="b2"selectable="true">公历日期：</text>
+          <text class="n1"selectable="true">{{todyitem.data.gongli}}</text>
+        </view>
+        <view class="c1">
+          <text class="b2"selectable="true">农历日期：</text>
+          <text class="n1"selectable="true">{{todyitem.data.nongli}}</text>
+        </view>
+        <view class="c1">
+          <text class="b2"selectable="true">干支：</text>
+          <text class="n1"selectable="true">{{todyitem.data.ganzhi}}</text>
+        </view>
+        <view class="c1">
+          <text class="b2"selectable="true">纳音：</text>
+          <text class="n1"selectable="true">{{todyitem.data.nayin}}</text>
+        </view>
+        <view class="c1">
+          <text class="b2"selectable="true">生肖：</text>
+          <text class="n1"selectable="true">{{todyitem.data.shengxiao}}</text>
+        </view>
+        <view class="c1">
+          <text class="b2"selectable="true">星座：</text>
+          <text class="n1"selectable="true">{{todyitem.data.xingzuo}}</text>
+        </view>
+        <view class="c1">
+          <text class="b2"selectable="true">十二神：</text>
+          <text class="n1"selectable="true">{{todyitem.data.sheng12}}</text>
+        </view>
+        <view class="c1">
+          <text class="b2"selectable="true">值日：</text>
+          <text class="n1"selectable="true">{{todyitem.data.zhiri}}</text>
+        </view>
+        <view class="c1">
+          <text class="b2"selectable="true">冲煞：</text>
+          <text class="n1"selectable="true">{{todyitem.data.chongsha}}</text>
+        </view>
+        <view class="c1">
+          <text class="b2"selectable="true">胎神吉方：</text>
+          <text class="n1"selectable="true">{{todyitem.data.tszf}}</text>
+        </view>
+        <view class="c1">
+          <text class="b2"selectable="true">彭祖百忌：</text>
+          <text class="n1"selectable="true">{{todyitem.data.pzbj}}</text>
+        </view>
+        <view class="c1">
+          <text class="b2"selectable="true">今日合害</text>
+          <text class="n1"selectable="true">{{todyitem.data.jrhh}}</text>
+        </view>
+        <view class="c1">
+          <text class="b2"selectable="true">宜：</text>
+          <text class="n1"selectable="true">{{todyitem.data.yi}}</text>
+        </view>
+        <view class="c1">
+          <text class="b2"selectable="true">忌：</text>
+          <text class="n1"selectable="true">{{todyitem.data.ji}}</text>
+        </view>
+        <view class="c1">
+          <text class="b2"selectable="true">吉神宜趋：</text>
+          <text class="n1"selectable="true">{{todyitem.data.jsyq}}</text>
+        </view>
+        <view class="c1">
+          <text class="b2"selectable="true">24节气：</text>
+          <text class="n1"selectable="true">{{todyitem.data.jieqi24}}</text>
+        </view>
+        <view class="c1">
+          <text class="b2"selectable="true">节日：</text>
+          <text class="n1"selectable="true">{{todyitem.data.jieri}}</text>
+        </view>
+      </view>
+    </view>
+    <view class="c11">
+      <text class="b22"selectable="true">相关介绍：</text>
+      <view >
+        <text class="n12"selectable="true">
+          <text></text>黄历，又称老黄历、皇历、通胜等，是一种能同时显示公历、农历和干支历等多套历法，并附加大量与趋吉避凶相关的规则和内容的历书。
+        </text>
+      </view>
+      <view >
+        <text class="n12"selectable="true">
+          <text></text>黄历里面不但包括了天文气象、时令季节而且还包含了人民在日常生活中要遵守的一些禁忌，其内容指导中国劳动农民耕种时机，故又称农民历;黄历民间又俗称为"通书"。古代中国人民把每一天的喜忌都记在日历上，作行动指南。 
+        </text>
+      </view>
+    </view>
+  </view>
+  
+</view>

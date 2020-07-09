@@ -1,0 +1,15 @@
+<view class="section">
+  <view class="section__title"></view>
+  <picker mode="date" value="{{date}}" start="1900-09-01" end="2022-09-01" bindchange="bindDateChange">
+    <view class="picker">
+      选择生日： {{date}}
+    </view>
+  </picker> 
+</view>
+<view hidden="{{!ok}}" class="jdsao">
+    <view class="jieguo">
+    现在你已经修炼了
+    </view>
+    <text >{{dayjin}}天{{xiaoshi}}小时{{fenzhong}}分{{miaozhong}}秒</text>
+  </view>
+<canvas canvas-id="myCanvas" class="canvas"></canvas>

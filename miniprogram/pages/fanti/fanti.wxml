@@ -1,0 +1,28 @@
+<!--pages/fanti/fanti.wxml-->
+<view class="section">
+  <view class="section__title" style="font-weight: bold;" >
+      请输入文字：
+  </view>
+  <input  bindinput="bindKeyInput" placeholder="请输入要转化的文字" placeholder-style="size:24rpx"/>
+  <view class="button_3"> 
+    <view>
+      <button size="mini" bindtap="bindjian">
+      简体
+      </button>
+    </view>
+    <view>
+      <button size="mini" bindtap="bindfan">
+      繁体
+      </button>
+    </view>
+    <view>
+      <button size="mini" bindtap="bindhuo">
+      火星文
+      </button>
+    </view>
+  </view>  
+</view>
+<text hidden="{{!okk}}" selectable="true">
+  所转化后的字体：
+  {{bianhuahoudewenzi}}
+</text>
